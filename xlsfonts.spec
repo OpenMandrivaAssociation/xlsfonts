@@ -1,6 +1,6 @@
 Name:		xlsfonts
 Version:	1.0.6
-Release:	2
+Release:	3
 Summary:	Server font list displayer for X
 Group:		Development/X11
 License:	MIT
@@ -14,17 +14,17 @@ Xlsfonts lists the fonts that match the given pattern. The wildcard character
 to match any single character.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure \
 	--x-includes=%{_includedir}\
 	--x-libraries=%{_libdir}
 
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/xlsfonts
