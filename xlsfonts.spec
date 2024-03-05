@@ -1,6 +1,6 @@
 Name:		xlsfonts
-Version:	1.0.7
-Release:	2
+Version:	1.0.8
+Release:	1
 Summary:	Server font list displayer for X
 Group:		Development/X11
 License:	MIT
