@@ -1,5 +1,5 @@
 Name:		xlsfonts
-Version:	1.0.8
+Version:	1.0.9
 Release:	1
 Summary:	Server font list displayer for X
 Group:		Development/X11
